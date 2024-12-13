@@ -11,8 +11,8 @@ void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
     const binary_tree_t *temp;
     
     temp = tree;
-    
-	if (tree == NULL)
+
+	if (temp == NULL)
 	    return;
 
     if (func == NULL)
